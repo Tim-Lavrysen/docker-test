@@ -8,7 +8,7 @@ RUN npm install
 
 COPY . .
 
-RUN ["run", "npm","build"]
+RUN ["npm","run" ,"build"]
 
 FROM nginx
 
